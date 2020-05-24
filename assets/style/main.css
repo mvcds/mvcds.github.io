@@ -6,18 +6,35 @@ h1 {
   font-size: 3rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
 img {
   max-width: 100%;
 }
 
-.contact {
-  background-color: var(--main-color);
-  color: white;
+small {
+  font-size: .8rem;
+}
+
+li + li {
+  margin-top: 2rem;
+}
+
+.section {
   padding: 2rem;
 }
 
-.contact a, .not-a-link {
-  color: black;
+.section:nth-child(odd) {
+  background-color: var(--main-color);
+  color: white;
 }
 
 .profile {
@@ -37,7 +54,14 @@ img {
   border-radius: 100%;
 }
 
-.profile__picture--matrix {
-/*   object-fit: none;
-  object-position: 30% 55%; */
+.link {
+  color: black;
+}
+
+.list--explicit {
+  list-style: disc inside;
+}
+
+.list--short li + li {
+  margin-top: .5rem;
 }
