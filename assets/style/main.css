@@ -13,9 +13,10 @@ img {
 .contact {
   background-color: var(--main-color);
   color: white;
+  padding: 2rem;
 }
 
-.contact a {
+.contact a, .not-a-link {
   color: black;
 }
 
@@ -23,8 +24,8 @@ img {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 2rem 0;
+  justify-content: space-between;
+  margin-bottom: 2rem;
 }
 
 .profile__name {
@@ -32,7 +33,7 @@ img {
 }
 
 .profile__picture {
-  width: 20vw;
+  width: 15vw;
   border-radius: 100%;
 }
 
