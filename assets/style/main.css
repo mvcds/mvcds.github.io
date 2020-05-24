@@ -1,0 +1,42 @@
+:root {
+  --main-color: #E84C3D;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.contact {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.contact a {
+  color: black;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem 0;
+}
+
+.profile__name {
+  font-weight: bold;
+}
+
+.profile__picture {
+  width: 20vw;
+  border-radius: 100%;
+}
+
+.profile__picture--matrix {
+/*   object-fit: none;
+  object-position: 30% 55%; */
+}
